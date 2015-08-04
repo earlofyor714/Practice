@@ -24,7 +24,6 @@ p = zeros(size(X, 1), 1);
 % X dimensions = #trainers x input_layer nodes
 
 
-
 % add X0
 X = [ones(m,1) X];
 hidden_layer = sigmoid(X*Theta1');					%Theta1 dimensions = hidden_layer x (input_layer+1)
