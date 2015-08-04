@@ -23,6 +23,7 @@ p = zeros(size(X, 1), 1);
 
 % X dimensions = #trainers x input_layer nodes
 
+%This is a newline
 
 % add X0
 X = [ones(m,1) X];
